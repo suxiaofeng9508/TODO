@@ -7,10 +7,16 @@
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
-  <head>
-    <title>$Title$</title>
-  </head>
-  <body>
-  $END$
-  </body>
+    <head>
+        <title>首页</title>
+    </head>
+    <body>
+    <%
+        String info = request.getParameter("info");
+        if(info == null) {
+            info = "guest";
+        }
+        out.println("Welcome " + info + "!");
+    %>
+    </body>
 </html>
