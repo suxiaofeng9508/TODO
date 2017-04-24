@@ -99,6 +99,7 @@ public class UserTest {
         user.setPassword("2333333");
         user.setEmail("55@55.com");
         int count = userDao.updateUser(user);
+        session.commit();
         Assert.assertEquals(count, 1);
         findAllUsers();
     }

@@ -3,6 +3,11 @@
 <configuration>
 
     <properties resource="db.properties"/>
+
+    <typeAliases>
+        <typeAlias type="com.loveqh.pojo.User" alias="User"></typeAlias>
+    </typeAliases>
+
     <!-- 对事务的管理和连接池的配置 -->
     <environments default="development">
         <environment id="development">

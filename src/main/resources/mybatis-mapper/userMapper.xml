@@ -6,19 +6,19 @@
         select count(*) from user
     </select>
 
-    <select id="findUserById" resultType="com.loveqh.pojo.User" parameterType="int">
+    <select id="findUserById" resultType="User" parameterType="int">
         select * from user where id=#{value}
     </select>
 
-    <select id="findUserByName" resultType="com.loveqh.pojo.User" parameterType="String">
+    <select id="findUserByName" resultType="User" parameterType="String">
         select * from user where name=#{value}
     </select>
 
-    <select id="findUsersLikeName" resultType="com.loveqh.pojo.User" parameterType="String">
+    <select id="findUsersLikeName" resultType="User" parameterType="String">
         select * from user where name like '%${value}%'
     </select>
 
-    <select id="findAllUsers" resultType="com.loveqh.pojo.User">
+    <select id="findAllUsers" resultType="User">
         select * from user
     </select>
 
@@ -26,12 +26,12 @@
         delete from user where id=#{value}
     </delete>
 
-    <insert id="addUser" parameterType="com.loveqh.pojo.User">
+    <insert id="addUser" parameterType="User">
         insert into user(name, password, email)
             values(#{name}, #{password}, #{email})
     </insert>
 
-    <update id="updateUser" parameterType="com.loveqh.pojo.User">
+    <update id="updateUser" parameterType="User">
         update user set
             name=#{name},
             password=#{password},
