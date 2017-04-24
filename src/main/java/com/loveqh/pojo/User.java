@@ -51,8 +51,14 @@ public class User {
         this.lastLogin = lastLogin;
     }
 
+    @Override
     public String toString() {
-        return "User[ id=" + id + ", name=" + name + ", password=" + password +
-                ", email=" + email + ", lastLogin=" + lastLogin + " ]";
+        return "User{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", password='" + password + '\'' +
+                ", email='" + email + '\'' +
+                ", lastLogin='" + lastLogin + '\'' +
+                '}';
     }
 }
