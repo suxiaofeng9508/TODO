@@ -52,7 +52,7 @@ public class User {
     }
 
     public String toString() {
-        return "User[ name=" + name + ", password=" + password +
+        return "User[ id=" + id + ", name=" + name + ", password=" + password +
                 ", email=" + email + ", lastLogin=" + lastLogin + " ]";
     }
 }
