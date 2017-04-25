@@ -82,6 +82,26 @@ public class ProjectTest {
         Assert.assertEquals(count, 1);
     }
 
+    @Test
+    public void deleteProjectById() {
+        int id = 4;
+        int count = projectDao.deleteProjectById(id);
+        session.commit();
+        Assert.assertEquals(count, 1);
+    }
+
+    @Test
+    public void updateProject() {
+        int id = 3;
+        Project project = new Project();
+        project.setId(id);
+        project.setIntro("update project");
+        project.setDeadline(dateFormat.format(MyDateUtil.getDateByDelta(new Date(), 1)));
+        int count = projectDao.updateProject(project);
+        session.commit();
+        Assert.assertEquals(count, 1);
+    }
+
     @After
     public void tearDown() {
         session.close();
