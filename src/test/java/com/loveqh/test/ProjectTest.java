@@ -45,6 +45,7 @@ public class ProjectTest {
         int id = 2;
         Project project = projectDao.findProjectById(id);
         Assert.assertNotNull(project);
+        Assert.assertEquals(project.getId(), id);
         System.out.println(project);
     }
 

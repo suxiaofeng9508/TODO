@@ -2,19 +2,26 @@
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.loveqh.dao.ProjectDao">
 
+    <resultMap id="projectResultMap" type="Project">
+        <id property="id" column="id"></id>
+        <result property="intro" column="intro"></result>
+        <result property="createTime" column="create_time"></result>
+        <result property="deadline" column="deadline"></result>
+    </resultMap>
+
     <select id="getAllProjectsCount" resultType="int">
         select count(*) from project
     </select>
 
-    <select id="findProjectById" resultType="Project" parameterType="int">
+    <select id="findProjectById" resultMap="projectResultMap" parameterType="int">
         select * from project where id=#{value}
     </select>
 
-    <select id="findProjectsLikeIntro" resultType="Project" parameterType="String">
+    <select id="findProjectsLikeIntro" resultMap="projectResultMap" parameterType="String">
         select * from project where intro like '%${value}%'
     </select>
 
-    <select id="findAllProjects" resultType="Project">
+    <select id="findAllProjects" resultMap="projectResultMap">
         select * from project
     </select>
 
