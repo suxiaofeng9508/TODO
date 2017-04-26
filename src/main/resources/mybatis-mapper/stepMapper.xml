@@ -30,6 +30,10 @@
         delete from step where id=#{value}
     </delete>
 
+    <delete id="deleteAllSteps">
+        delete from step
+    </delete>
+
     <insert id="addStep" parameterType="Step">
         insert into step(intro, create_time, deadline, project_id)
         values(#{intro}, #{createTime}, #{deadline}, #{projectId})

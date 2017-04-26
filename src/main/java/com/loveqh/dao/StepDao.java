@@ -19,6 +19,8 @@ public interface StepDao {
 
     int deleteStepById(int id);
 
+    int deleteAllSteps();   //用于测试
+
     int addStep(Step step);
 
     int updateStep(Step step);

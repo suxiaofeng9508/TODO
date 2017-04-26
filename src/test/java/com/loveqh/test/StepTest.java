@@ -68,7 +68,7 @@ public class StepTest {
     public void addStep() {
         int projectId = 2;
         Step step = new Step();
-        step.setIntro("first step");
+        step.setIntro("second step");
         Date now = new Date();
         step.setCreateTime(MyDateUtil.formatDateToString(now));
         step.setDeadline(MyDateUtil.formatDateToString(MyDateUtil.getDateByDelta(now, 2)));
@@ -84,6 +84,13 @@ public class StepTest {
         int count = stepDao.deleteStepById(stepId);
         session.commit();
         Assert.assertEquals(count, 1);
+    }
+
+    @Test
+    public void deleteAllSteps() {
+        //这里不进行提交，只是测试返回的影响记录数
+        int count = stepDao.deleteAllSteps();
+        Assert.assertEquals(count, 2);
     }
 
     @Test
