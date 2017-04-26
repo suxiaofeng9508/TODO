@@ -35,15 +35,16 @@
     </delete>
 
     <insert id="addUser" parameterType="User">
-        insert into user(name, password, email)
-            values(#{name}, #{password}, #{email})
+        insert into user(name, password, email, last_login)
+            values(#{name}, #{password}, #{email}, #{lastLogin})
     </insert>
 
     <update id="updateUser" parameterType="User">
         update user set
             name=#{name},
             password=#{password},
-            email=#{email}
+            email=#{email},
+            last_login=#{lastLogin},
             where id=#{id}
     </update>
 

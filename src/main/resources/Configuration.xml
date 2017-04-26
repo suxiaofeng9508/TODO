@@ -7,6 +7,7 @@
     <typeAliases>
         <typeAlias type="com.loveqh.pojo.User" alias="User"></typeAlias>
         <typeAlias type="com.loveqh.pojo.Project" alias="Project"></typeAlias>
+        <typeAlias type="com.loveqh.pojo.Step" alias="Step"></typeAlias>
     </typeAliases>
 
     <!-- 对事务的管理和连接池的配置 -->
@@ -24,5 +25,6 @@
     <mappers>
         <mapper resource="mybatis-mapper/userMapper.xml"/>
         <mapper resource="mybatis-mapper/projectMapper.xml"></mapper>
+        <mapper resource="mybatis-mapper/stepMapper.xml"></mapper>
     </mappers>
 </configuration>

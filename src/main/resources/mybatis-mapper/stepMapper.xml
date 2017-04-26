@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.loveqh.dao.StepDao">
+
+    <resultMap id="stepResultMap" type="Step">
+        <id property="id" column="id"></id>
+        <result property="intro" column="intro"></result>
+        <result property="createTime" column="create_time"></result>
+        <result property="deadline" column="deadline"></result>
+        <result property="projectId" column="project_id"></result>
+    </resultMap>
+
+    <select id="getAllStepsCount" resultType="int">
+        select count(*) from step
+    </select>
+
+    <select id="findStepById" resultMap="stepResultMap" parameterType="int">
+        select * from step where id=#{value}
+    </select>
+
+    <select id="findStepsLikeIntro" resultMap="stepResultMap" parameterType="String">
+        select * from step where intro like '%${value}%'
+    </select>
+
+    <select id="findAllSteps" resultMap="stepResultMap">
+        select * from step
+    </select>
+
+    <delete id="deleteStepById" parameterType="int">
+        delete from step where id=#{value}
+    </delete>
+
+    <insert id="addStep" parameterType="Step">
+        insert into step(intro, create_time, deadline, project_id)
+        values(#{intro}, #{createTime}, #{deadline}, #{projectId})
+    </insert>
+
+    <update id="updateStep" parameterType="Step">
+        update step set
+        intro=#{intro},
+        deadline=#{deadline}
+        where id=#{id}
+    </update>
+
+</mapper>

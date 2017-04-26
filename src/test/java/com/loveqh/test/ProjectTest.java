@@ -23,14 +23,12 @@ public class ProjectTest {
 
     private SqlSession session;
     private ProjectDao projectDao;
-    private DateFormat dateFormat;
 
     @Before
     public void setUp() {
         SqlSessionFactory sessionFactory = MyBatisSessionFactory.getSessionFactory();
         session = sessionFactory.openSession();
         projectDao = session.getMapper(ProjectDao.class);
-        dateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
     }
 
     @Test
@@ -75,8 +73,8 @@ public class ProjectTest {
         project.setIntro("todo " + idx);
         project.setCreateTime("today");
         Date today = new Date();
-        project.setCreateTime(dateFormat.format(today));
-        project.setDeadline(dateFormat.format(MyDateUtil.getDateByDelta(today, 1)));
+        project.setCreateTime(MyDateUtil.formatDateToString(today));
+        project.setDeadline(MyDateUtil.formatDateToString(MyDateUtil.getDateByDelta(today, 1)));
         int count = projectDao.addProject(project);
         session.commit();
         Assert.assertEquals(count, 1);
@@ -96,7 +94,7 @@ public class ProjectTest {
         Project project = new Project();
         project.setId(id);
         project.setIntro("update project");
-        project.setDeadline(dateFormat.format(MyDateUtil.getDateByDelta(new Date(), 1)));
+        project.setDeadline(MyDateUtil.formatDateToString(MyDateUtil.getDateByDelta(new Date(), 1)));
         int count = projectDao.updateProject(project);
         session.commit();
         Assert.assertEquals(count, 1);

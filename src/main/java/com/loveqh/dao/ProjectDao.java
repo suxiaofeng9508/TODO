@@ -17,6 +17,11 @@ public interface ProjectDao {
 
     List<Project> findAllProjects();
 
+    /**
+     * TODO: change to update the finish state of the project
+     * @param id
+     * @return
+     */
     int deleteProjectById(int id);
 
     int addProject(Project project);
