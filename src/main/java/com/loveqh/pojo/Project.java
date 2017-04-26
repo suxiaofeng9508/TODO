@@ -9,6 +9,7 @@ public class Project {
     private String intro;
     private String createTime;
     private String deadline;
+    private String userId;
 
     public int getId() {
         return id;
@@ -42,6 +43,14 @@ public class Project {
         this.deadline = deadline;
     }
 
+    public String getUserId() {
+        return userId;
+    }
+
+    public void setUserId(String userId) {
+        this.userId = userId;
+    }
+
     @Override
     public String toString() {
         return "Project{" +
@@ -49,6 +58,7 @@ public class Project {
                 ", intro='" + intro + '\'' +
                 ", createTime='" + createTime + '\'' +
                 ", deadline='" + deadline + '\'' +
+                ", userId='" + userId + '\'' +
                 '}';
     }
 }

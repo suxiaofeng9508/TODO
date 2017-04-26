@@ -7,6 +7,7 @@
         <result property="intro" column="intro"></result>
         <result property="createTime" column="create_time"></result>
         <result property="deadline" column="deadline"></result>
+        <result property="userId" column="user_id"></result>
     </resultMap>
 
     <select id="getAllProjectsCount" resultType="int">
@@ -30,8 +31,8 @@
     </delete>
 
     <insert id="addProject" parameterType="Project">
-        insert into project(intro, create_time, deadline)
-            values(#{intro}, #{createTime}, #{deadline})
+        insert into project(intro, create_time, deadline, user_id)
+            values(#{intro}, #{createTime}, #{deadline}, #{userId})
     </insert>
 
     <update id="updateProject" parameterType="Project">
