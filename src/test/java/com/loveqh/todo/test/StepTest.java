@@ -1,9 +1,9 @@
-package com.loveqh.test;
+package com.loveqh.todo.test;
 
-import com.loveqh.dao.StepDao;
-import com.loveqh.pojo.Step;
-import com.loveqh.util.MyBatisSessionFactory;
-import com.loveqh.util.MyDateUtil;
+import com.loveqh.todo.dao.StepDao;
+import com.loveqh.todo.pojo.Step;
+import com.loveqh.todo.util.MyBatisSessionFactory;
+import com.loveqh.todo.util.MyDateUtil;
 import org.apache.ibatis.session.SqlSession;
 import org.apache.ibatis.session.SqlSessionFactory;
 import org.junit.After;

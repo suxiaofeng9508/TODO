@@ -1,4 +1,4 @@
-package com.loveqh.pojo;
+package com.loveqh.todo.pojo;
 
 /**
  * Created by WL on 2017-04-26.

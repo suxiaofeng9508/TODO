@@ -1,9 +1,9 @@
-package com.loveqh.test;
+package com.loveqh.todo.test;
 
-import com.loveqh.dao.ProjectDao;
-import com.loveqh.pojo.Project;
-import com.loveqh.util.MyBatisSessionFactory;
-import com.loveqh.util.MyDateUtil;
+import com.loveqh.todo.dao.ProjectDao;
+import com.loveqh.todo.pojo.Project;
+import com.loveqh.todo.util.MyBatisSessionFactory;
+import com.loveqh.todo.util.MyDateUtil;
 import org.apache.ibatis.session.SqlSession;
 import org.apache.ibatis.session.SqlSessionFactory;
 import org.junit.After;
@@ -11,8 +11,6 @@ import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
-import java.text.DateFormat;
-import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.List;
 

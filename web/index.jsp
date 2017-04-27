@@ -11,6 +11,8 @@
         <title>首页</title>
     </head>
     <body>
+    <h2>用户登录</h2>
+    <p>sringmvc test succeed!</p>
     <%!
         /**
          * create a function in %!
@@ -32,7 +34,7 @@
         } else {
             info = convertEncoding(info);
         }
-        out.println("Welcome " + info + "!");
+//        out.println("Welcome " + info + "!");
     %>
     </body>
 </html>

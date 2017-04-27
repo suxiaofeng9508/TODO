@@ -1,6 +1,6 @@
-package com.loveqh.dao;
+package com.loveqh.todo.dao;
 
-import com.loveqh.pojo.User;
+import com.loveqh.todo.pojo.User;
 
 import java.util.List;
 

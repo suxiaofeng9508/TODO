@@ -1,4 +1,4 @@
-package com.loveqh.util;
+package com.loveqh.todo.util;
 
 import org.apache.ibatis.io.Resources;
 import org.apache.ibatis.session.SqlSessionFactory;
@@ -13,7 +13,7 @@ public class MyBatisSessionFactory {
 
     public static SqlSessionFactory getSessionFactory() {
         SqlSessionFactory sessionFactory = null;
-        String resource = "Configuration.xml";
+        String resource = "mybatis-config.xml";
         try {
             InputStream inputStream = Resources.getResourceAsStream(resource);
             sessionFactory = new SqlSessionFactoryBuilder().build(inputStream);

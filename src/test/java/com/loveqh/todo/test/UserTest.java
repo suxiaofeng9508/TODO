@@ -1,8 +1,8 @@
-package com.loveqh.test;
+package com.loveqh.todo.test;
 
-import com.loveqh.dao.UserDao;
-import com.loveqh.pojo.User;
-import com.loveqh.util.MyBatisSessionFactory;
+import com.loveqh.todo.dao.UserDao;
+import com.loveqh.todo.pojo.User;
+import com.loveqh.todo.util.MyBatisSessionFactory;
 import org.apache.ibatis.session.SqlSession;
 import org.apache.ibatis.session.SqlSessionFactory;
 import org.junit.After;
@@ -64,6 +64,7 @@ public class UserTest {
     public void findAllUsers() {
         List<User> users = userDao.findAllUsers();
         Assert.assertFalse(users.isEmpty());
+        System.out.println(users);
         for(User user : users) {
             System.out.println(user);
         }
