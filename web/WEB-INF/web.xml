@@ -3,8 +3,11 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
          version="3.1">
+
     <display-name>TODO</display-name>
+
     <servlet>
+        <!-- servlet-name定义的名称是TODO,这样spring会自动在WEB-INF下扫描TODO-servlet.xml文件 -->
         <servlet-name>TODO</servlet-name>
         <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
         <init-param>
@@ -17,6 +20,7 @@
         <servlet-name>TODO</servlet-name>
         <url-pattern>/</url-pattern>
     </servlet-mapping>
+
     <filter>
         <filter-name>encodingFilter</filter-name>
         <filter-class>org.springframework.web.filter.CharacterEncodingFilter</filter-class>

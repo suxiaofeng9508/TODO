@@ -11,8 +11,16 @@
        http://www.springframework.org/schema/mvc/spring-mvc.xsd"
        default-lazy-init="true">
 
-    <context:component-scan base-package="com.loveqh.todo"/>
+    <!-- 设置组件自动扫描，并指定包路径 -->
+    <context:component-scan base-package="com.loveqh.todo.controller"/>
 
+    <!-- 不采用上面的自动组件扫描的话，也可以手动设置bean -->
+    <!--<bean class="com.loveqh.todo.controller.LoginController"></bean>-->
+
+    <!-- 静态资源映射，所有的页面引用到/styles/**的资源都将从/static/css里面进行查找 -->
+    <mvc:resources mapping="/js/**" location="/WEB-INF/static/js/"/>
+    <mvc:resources mapping="/styles/**" location="/WEB-INF/static/css/"/>
+    <mvc:resources mapping="/images/**" location="/WEB-INF/static/img/"/>
     <mvc:resources location="/WEB-INF/pages/" mapping="/pages/**"/>
 
     <!-- 视图解析器 -->

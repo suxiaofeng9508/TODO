@@ -38,4 +38,6 @@
 //        out.println("Welcome " + info + "!");
     %>
     </body>
+
+    <script src="/js/test.js" type="text/javascript"></script>
 </html>
