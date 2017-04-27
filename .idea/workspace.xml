@@ -2,41 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6f34d9b9-1df8-4a44-8a4b-5040994d1618" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_3_7_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_3_7_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_3_7_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_3_7_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_3_7_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_3_7_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_4_3_7_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/loveqh/todo/controller/LoginController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/spring/applicationContextMVC.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_4_3_7_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/pages/index.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/TODO_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/TODO_war_exploded.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TODO.iml" afterPath="$PROJECT_DIR$/TODO.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/log.log" afterPath="$PROJECT_DIR$/logs/log.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/readme.md" afterPath="$PROJECT_DIR$/readme.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/mybatis-mapper/projectMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mybatis-mapper/projectMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/mybatis-mapper/stepMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mybatis-mapper/stepMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/mybatis-mapper/userMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mybatis-mapper/userMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/index.jsp" afterPath="$PROJECT_DIR$/web/index.jsp" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/loveqh/dao/ProjectDao.java" afterPath="$PROJECT_DIR$/src/main/java/com/loveqh/todo/dao/ProjectDao.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/loveqh/dao/StepDao.java" afterPath="$PROJECT_DIR$/src/main/java/com/loveqh/todo/dao/StepDao.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/loveqh/dao/UserDao.java" afterPath="$PROJECT_DIR$/src/main/java/com/loveqh/todo/dao/UserDao.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/loveqh/pojo/Project.java" afterPath="$PROJECT_DIR$/src/main/java/com/loveqh/todo/pojo/Project.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/loveqh/pojo/Step.java" afterPath="$PROJECT_DIR$/src/main/java/com/loveqh/todo/pojo/Step.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/loveqh/pojo/User.java" afterPath="$PROJECT_DIR$/src/main/java/com/loveqh/todo/pojo/User.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/loveqh/util/MyBatisSessionFactory.java" afterPath="$PROJECT_DIR$/src/main/java/com/loveqh/todo/util/MyBatisSessionFactory.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/loveqh/util/MyDateUtil.java" afterPath="$PROJECT_DIR$/src/main/java/com/loveqh/todo/util/MyDateUtil.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/Configuration.xml" afterPath="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/com/loveqh/test/LoggerTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/loveqh/todo/test/LoggerTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/com/loveqh/test/ProjectTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/loveqh/todo/test/ProjectTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/com/loveqh/test/StepTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/loveqh/todo/test/StepTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/com/loveqh/test/UserTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/loveqh/todo/test/UserTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -53,11 +24,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="UserTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/loveqh/todo/test/UserTest.java">
+      <file leaf-file-name="LoginController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/loveqh/todo/controller/LoginController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
-              <caret line="64" column="30" lean-forward="false" selection-start-line="64" selection-start-column="30" selection-end-line="64" selection-end-column="30" />
+              <caret line="15" column="27" lean-forward="true" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -65,103 +36,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="applicationContext.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="8" column="8" lean-forward="true" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="applicationContextMVC.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/spring/applicationContextMVC.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="7" column="34" lean-forward="false" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="web.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="777">
-              <caret line="37" column="21" lean-forward="true" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="readme.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/readme.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="1281">
-                <caret line="61" column="15" lean-forward="true" selection-start-line="61" selection-start-column="15" selection-end-line="61" selection-end-column="15" />
-                <folding />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="69" column="32" lean-forward="false" selection-start-line="69" selection-start-column="32" selection-end-line="69" selection-end-column="32" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LoginController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/loveqh/todo/controller/LoginController.java">
-          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="63">
-              <caret line="3" column="46" lean-forward="false" selection-start-line="3" selection-start-column="46" selection-end-line="3" selection-end-column="46" />
+              <caret line="3" column="13" lean-forward="false" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="userMapper.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis-mapper/userMapper.xml">
+      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/pages/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="26" selection-end-column="13" />
-              <folding>
-                <marker date="1493263023130" expanded="true" signature="611:636" ph="select count... user" />
-                <marker date="1493263023130" expanded="true" signature="737:773" ph="select * fro... user" />
-                <marker date="1493263023130" expanded="true" signature="879:917" ph="select * fro... user" />
-                <marker date="1493263023130" expanded="true" signature="1026:1073" ph="select * fro... user" />
-                <marker date="1493263023130" expanded="true" signature="1154:1172" ph="select * fro... user" />
-                <marker date="1493263023130" expanded="true" signature="1249:1283" ph="delete from " />
-                <marker date="1493263023130" expanded="true" signature="1354:1470" ph="insert into user... " />
-                <marker date="1493263023130" expanded="true" signature="1544:1711" ph="update user " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mybatis-config.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis-config.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="9" column="40" lean-forward="false" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MyBatisSessionFactory.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/loveqh/todo/util/MyBatisSessionFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="15" column="32" lean-forward="false" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+            <state relative-caret-position="168">
+              <caret line="17" column="11" lean-forward="true" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -221,11 +110,12 @@
         <option value="$PROJECT_DIR$/src/main/java/com/loveqh/controller/LoginController.java" />
         <option value="$PROJECT_DIR$/web/index.jsp" />
         <option value="$PROJECT_DIR$/src/test/java/com/loveqh/test/UserTest.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/applicationContext.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/spring/applicationContextMVC.xml" />
         <option value="$PROJECT_DIR$/readme.md" />
+        <option value="$PROJECT_DIR$/src/main/resources/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/pages/index.jsp" />
       </list>
     </option>
   </component>
@@ -314,6 +204,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Maven: commons-logging:commons-logging:1.2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="commons-logging-1.2.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TODO" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="TODO" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -347,6 +255,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TODO" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TODO" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pages" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -450,6 +380,58 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TODO" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TODO" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="todo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controller" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TODO" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TODO" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="out" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="artifacts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TODO_war_exploded" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -460,9 +442,9 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path" value="D:/Program Files/nodejs/node" />
     <property name="js.eslint.eslintPackage" value="" />
-    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
     <property name="js-jscs-nodeInterpreter" value="D:\Program Files\nodejs\node.exe" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="Downloaded.Files.Path.Enabled" value="false" />
@@ -474,6 +456,8 @@
       <recent name="com.loveqh.todo" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\编程工作环境\IdeaProjects\TODO\web\WEB-INF\pages" />
+      <recent name="D:\编程工作环境\IdeaProjects\TODO\out\artifacts\TODO_war_exploded\WEB-INF\lib" />
       <recent name="D:\编程工作环境\IdeaProjects\TODO\src\main\resources\mybatis-mapper" />
     </key>
   </component>
@@ -1120,7 +1104,7 @@
       <workItem from="1493004636954" duration="10886000" />
       <workItem from="1493088383605" duration="7676000" />
       <workItem from="1493170213723" duration="13015000" />
-      <workItem from="1493261439865" duration="5323000" />
+      <workItem from="1493261439865" duration="9113000" />
     </task>
     <task id="LOCAL-00001" summary="modify index jsp">
       <created>1492916142750</created>
@@ -1227,7 +1211,14 @@
       <option name="project" value="LOCAL" />
       <updated>1493197421604</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="加入spring MVC，但是部署出现问题：&#10;&#10;四月 27, 2017 11:57:55 上午 org.apache.catalina.core.StandardContext listenerStart&#10;严重: Error configuring application listener of class org.springframework.web.context.ContextLoaderListener&#10;java.lang.ClassNotFoundException: org.springframework.web.context.ContextLoaderListener&#10;&#9;at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1892)&#10;&#9;at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1735)&#10;&#9;at org.apache.catalina.core.DefaultInstanceManager.loadClass(DefaultInstanceManager.java:504)&#10;&#9;at org.apache.catalina.core.DefaultInstanceManager.loadClassMaybePrivileged(DefaultInstanceManager.java:486)&#10;&#9;at org.apache.catalina.core.DefaultInstanceManager.newInstance(DefaultInstanceManager.java:113)&#10;&#9;at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:5034)&#10;&#9;at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5634)&#10;&#9;at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)&#10;&#9;at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:899)&#10;&#9;at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:875)&#10;&#9;at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:652)&#10;&#9;at org.apache.catalina.startup.HostConfig.manageApp(HostConfig.java:1863)&#10;&#9;at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#10;&#9;at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)&#10;&#9;at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#10;&#9;at java.lang.reflect.Method.invoke(Method.java:498)&#10;&#9;at org.apache.tomcat.util.modeler.BaseModelMBean.invoke(BaseModelMBean.java:301)&#10;&#9;at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:819)&#10;&#9;at com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:801)&#10;&#9;at org.apache.catalina.mbeans.MBeanFactory.createStandardContext(MBeanFactory.java:618)&#10;&#9;at org.apache.catalina.mbeans.MBeanFactory.createStandardContext(MBeanFactory.java:565)&#10;&#9;at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#10;&#9;at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)&#10;&#9;at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#10;&#9;at java.lang.reflect.Method.invoke(Method.java:498)&#10;&#9;at org.apache.tomcat.util.modeler.BaseModelMBean.invoke(BaseModelMBean.java:301)&#10;&#9;at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:819)&#10;&#9;at com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:801)&#10;&#9;at javax.management.remote.rmi.RMIConnectionImpl.doOperation(RMIConnectionImpl.java:1468)&#10;&#9;at javax.management.remote.rmi.RMIConnectionImpl.access$300(RMIConnectionImpl.java:76)&#10;&#9;at javax.management.remote.rmi.RMIConnectionImpl$PrivilegedOperation.run(RMIConnectionImpl.java:1309)&#10;&#9;at javax.management.remote.rmi.RMIConnectionImpl.doPrivilegedOperation(RMIConnectionImpl.java:1401)&#10;&#9;at javax.management.remote.rmi.RMIConnectionImpl.invoke(RMIConnectionImpl.java:829)&#10;&#9;at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#10;&#9;at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)&#10;&#9;at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#10;&#9;at java.lang.reflect.Method.invoke(Method.java:498)&#10;&#9;at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:346)&#10;&#9;at sun.rmi.transport.Transport$1.run(Transport.java:200)&#10;&#9;at sun.rmi.transport.Transport$1.run(Transport.java:197)&#10;&#9;at java.security.AccessController.doPrivileged(Native Method)&#10;&#9;at sun.rmi.transport.Transport.serviceCall(Transport.java:196)&#10;&#9;at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:568)&#10;&#9;at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:826)&#10;&#9;at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:683)&#10;&#9;at java.security.AccessController.doPrivileged(Native Method)&#10;&#9;at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:682)&#10;&#9;at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)&#10;&#9;at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)&#10;&#9;at java.lang.Thread.run(Thread.java:745)">
+      <created>1493266835573</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1493266835573</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1263,7 +1254,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47222000" />
+    <option name="totallyTimeSpent" value="51012000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1298,7 +1289,7 @@
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.7381703" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39589906" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5567823" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24304539" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -1335,7 +1326,8 @@
     <MESSAGE value="修改project表结构及逻辑，删除UserProject相关类" />
     <MESSAGE value="1. 增加step相关类及数据库操作&#10;2. 增加日期工具类中日期转字符串的方法" />
     <MESSAGE value="测试删除step表的所有记录时，返回的影响数字是否等于总的记录数，测试通过" />
-    <option name="LAST_COMMIT_MESSAGE" value="测试删除step表的所有记录时，返回的影响数字是否等于总的记录数，测试通过" />
+    <MESSAGE value="加入spring MVC，但是部署出现问题：&#10;&#10;四月 27, 2017 11:57:55 上午 org.apache.catalina.core.StandardContext listenerStart&#10;严重: Error configuring application listener of class org.springframework.web.context.ContextLoaderListener&#10;java.lang.ClassNotFoundException: org.springframework.web.context.ContextLoaderListener&#10;&#9;at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1892)&#10;&#9;at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1735)&#10;&#9;at org.apache.catalina.core.DefaultInstanceManager.loadClass(DefaultInstanceManager.java:504)&#10;&#9;at org.apache.catalina.core.DefaultInstanceManager.loadClassMaybePrivileged(DefaultInstanceManager.java:486)&#10;&#9;at org.apache.catalina.core.DefaultInstanceManager.newInstance(DefaultInstanceManager.java:113)&#10;&#9;at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:5034)&#10;&#9;at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5634)&#10;&#9;at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)&#10;&#9;at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:899)&#10;&#9;at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:875)&#10;&#9;at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:652)&#10;&#9;at org.apache.catalina.startup.HostConfig.manageApp(HostConfig.java:1863)&#10;&#9;at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#10;&#9;at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)&#10;&#9;at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#10;&#9;at java.lang.reflect.Method.invoke(Method.java:498)&#10;&#9;at org.apache.tomcat.util.modeler.BaseModelMBean.invoke(BaseModelMBean.java:301)&#10;&#9;at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:819)&#10;&#9;at com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:801)&#10;&#9;at org.apache.catalina.mbeans.MBeanFactory.createStandardContext(MBeanFactory.java:618)&#10;&#9;at org.apache.catalina.mbeans.MBeanFactory.createStandardContext(MBeanFactory.java:565)&#10;&#9;at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#10;&#9;at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)&#10;&#9;at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#10;&#9;at java.lang.reflect.Method.invoke(Method.java:498)&#10;&#9;at org.apache.tomcat.util.modeler.BaseModelMBean.invoke(BaseModelMBean.java:301)&#10;&#9;at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:819)&#10;&#9;at com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:801)&#10;&#9;at javax.management.remote.rmi.RMIConnectionImpl.doOperation(RMIConnectionImpl.java:1468)&#10;&#9;at javax.management.remote.rmi.RMIConnectionImpl.access$300(RMIConnectionImpl.java:76)&#10;&#9;at javax.management.remote.rmi.RMIConnectionImpl$PrivilegedOperation.run(RMIConnectionImpl.java:1309)&#10;&#9;at javax.management.remote.rmi.RMIConnectionImpl.doPrivilegedOperation(RMIConnectionImpl.java:1401)&#10;&#9;at javax.management.remote.rmi.RMIConnectionImpl.invoke(RMIConnectionImpl.java:829)&#10;&#9;at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#10;&#9;at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)&#10;&#9;at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#10;&#9;at java.lang.reflect.Method.invoke(Method.java:498)&#10;&#9;at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:346)&#10;&#9;at sun.rmi.transport.Transport$1.run(Transport.java:200)&#10;&#9;at sun.rmi.transport.Transport$1.run(Transport.java:197)&#10;&#9;at java.security.AccessController.doPrivileged(Native Method)&#10;&#9;at sun.rmi.transport.Transport.serviceCall(Transport.java:196)&#10;&#9;at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:568)&#10;&#9;at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:826)&#10;&#9;at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:683)&#10;&#9;at java.security.AccessController.doPrivileged(Native Method)&#10;&#9;at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:682)&#10;&#9;at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)&#10;&#9;at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)&#10;&#9;at java.lang.Thread.run(Thread.java:745)" />
+    <option name="LAST_COMMIT_MESSAGE" value="加入spring MVC，但是部署出现问题：&#10;&#10;四月 27, 2017 11:57:55 上午 org.apache.catalina.core.StandardContext listenerStart&#10;严重: Error configuring application listener of class org.springframework.web.context.ContextLoaderListener&#10;java.lang.ClassNotFoundException: org.springframework.web.context.ContextLoaderListener&#10;&#9;at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1892)&#10;&#9;at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1735)&#10;&#9;at org.apache.catalina.core.DefaultInstanceManager.loadClass(DefaultInstanceManager.java:504)&#10;&#9;at org.apache.catalina.core.DefaultInstanceManager.loadClassMaybePrivileged(DefaultInstanceManager.java:486)&#10;&#9;at org.apache.catalina.core.DefaultInstanceManager.newInstance(DefaultInstanceManager.java:113)&#10;&#9;at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:5034)&#10;&#9;at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5634)&#10;&#9;at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)&#10;&#9;at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:899)&#10;&#9;at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:875)&#10;&#9;at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:652)&#10;&#9;at org.apache.catalina.startup.HostConfig.manageApp(HostConfig.java:1863)&#10;&#9;at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#10;&#9;at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)&#10;&#9;at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#10;&#9;at java.lang.reflect.Method.invoke(Method.java:498)&#10;&#9;at org.apache.tomcat.util.modeler.BaseModelMBean.invoke(BaseModelMBean.java:301)&#10;&#9;at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:819)&#10;&#9;at com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:801)&#10;&#9;at org.apache.catalina.mbeans.MBeanFactory.createStandardContext(MBeanFactory.java:618)&#10;&#9;at org.apache.catalina.mbeans.MBeanFactory.createStandardContext(MBeanFactory.java:565)&#10;&#9;at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#10;&#9;at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)&#10;&#9;at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#10;&#9;at java.lang.reflect.Method.invoke(Method.java:498)&#10;&#9;at org.apache.tomcat.util.modeler.BaseModelMBean.invoke(BaseModelMBean.java:301)&#10;&#9;at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:819)&#10;&#9;at com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:801)&#10;&#9;at javax.management.remote.rmi.RMIConnectionImpl.doOperation(RMIConnectionImpl.java:1468)&#10;&#9;at javax.management.remote.rmi.RMIConnectionImpl.access$300(RMIConnectionImpl.java:76)&#10;&#9;at javax.management.remote.rmi.RMIConnectionImpl$PrivilegedOperation.run(RMIConnectionImpl.java:1309)&#10;&#9;at javax.management.remote.rmi.RMIConnectionImpl.doPrivilegedOperation(RMIConnectionImpl.java:1401)&#10;&#9;at javax.management.remote.rmi.RMIConnectionImpl.invoke(RMIConnectionImpl.java:829)&#10;&#9;at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#10;&#9;at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)&#10;&#9;at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#10;&#9;at java.lang.reflect.Method.invoke(Method.java:498)&#10;&#9;at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:346)&#10;&#9;at sun.rmi.transport.Transport$1.run(Transport.java:200)&#10;&#9;at sun.rmi.transport.Transport$1.run(Transport.java:197)&#10;&#9;at java.security.AccessController.doPrivileged(Native Method)&#10;&#9;at sun.rmi.transport.Transport.serviceCall(Transport.java:196)&#10;&#9;at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:568)&#10;&#9;at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:826)&#10;&#9;at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:683)&#10;&#9;at java.security.AccessController.doPrivileged(Native Method)&#10;&#9;at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:682)&#10;&#9;at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)&#10;&#9;at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)&#10;&#9;at java.lang.Thread.run(Thread.java:745)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1346,23 +1338,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis-mapper/userMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding>
-            <marker date="1493263023130" expanded="true" signature="611:636" ph="select count... user" />
-            <marker date="1493263023130" expanded="true" signature="737:773" ph="select * fro... user" />
-            <marker date="1493263023130" expanded="true" signature="879:917" ph="select * fro... user" />
-            <marker date="1493263023130" expanded="true" signature="1026:1073" ph="select * fro... user" />
-            <marker date="1493263023130" expanded="true" signature="1154:1172" ph="select * fro... user" />
-            <marker date="1493263023130" expanded="true" signature="1249:1283" ph="delete from " />
-            <marker date="1493263023130" expanded="true" signature="1354:1470" ph="insert into user... " />
-            <marker date="1493263023130" expanded="true" signature="1544:1711" ph="update user " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1471,6 +1446,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
           <caret line="6" column="19" lean-forward="false" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1495,14 +1471,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="546">
           <caret line="26" column="16" lean-forward="false" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/loveqh/todo/test/LoggerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="12" column="27" lean-forward="false" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1559,9 +1527,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="79">
           <caret line="86" column="17" lean-forward="true" selection-start-line="86" selection-start-column="17" selection-end-line="86" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1623,16 +1589,8 @@
         <state relative-caret-position="534">
           <caret line="91" column="45" lean-forward="false" selection-start-line="91" selection-start-column="45" selection-end-line="91" selection-end-column="45" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="6" lean-forward="false" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1695,14 +1653,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/loveqh/todo/controller/LoginController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="46" lean-forward="false" selection-start-line="3" selection-start-column="46" selection-end-line="3" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/Program Files/Java/jdk1.8.0_121/src.zip!/javax/management/remote/rmi/RMIConnectionImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="118">
@@ -1711,10 +1661,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="1281">
+            <caret line="61" column="15" lean-forward="false" selection-start-line="61" selection-start-column="15" selection-end-line="61" selection-end-column="15" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/loveqh/todo/test/LoggerTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
-          <caret line="69" column="32" lean-forward="false" selection-start-line="69" selection-start-column="32" selection-end-line="69" selection-end-column="32" />
+          <caret line="12" column="27" lean-forward="false" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" column="10" lean-forward="false" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
           <folding />
         </state>
       </provider>
@@ -1722,35 +1691,50 @@
     <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
-          <caret line="8" column="8" lean-forward="true" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+          <caret line="8" column="8" lean-forward="false" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/spring/applicationContextMVC.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="34" lean-forward="false" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
+        <state relative-caret-position="210">
+          <caret line="10" column="46" lean-forward="false" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1586">
+          <caret line="82" column="21" lean-forward="true" selection-start-line="82" selection-start-column="21" selection-end-line="82" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/loveqh/todo/controller/LoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="15" column="27" lean-forward="true" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/pages/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="17" column="11" lean-forward="true" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="777">
-          <caret line="37" column="21" lean-forward="true" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="21" />
+        <state relative-caret-position="63">
+          <caret line="3" column="13" lean-forward="false" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/readme.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="1281">
-            <caret line="61" column="15" lean-forward="true" selection-start-line="61" selection-start-column="15" selection-end-line="61" selection-end-column="15" />
-            <folding />
-          </first_editor>
-          <second_editor />
         </state>
       </provider>
     </entry>
@@ -1759,7 +1743,14 @@
     <states>
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
-          <artifact-editor />
+          <artifact-editor>
+            <show-content>
+              <type id="library" />
+              <type id="artifact" />
+              <type id="javaee-facet-resources" />
+              <type id="jpa-descriptors" />
+            </show-content>
+          </artifact-editor>
           <last-edited>TODO:war exploded</last-edited>
           <splitter-proportions>
             <option name="proportions">
@@ -1808,11 +1799,12 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>Spring|TODO</last-edited>
+          <last-edited>TODO</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
