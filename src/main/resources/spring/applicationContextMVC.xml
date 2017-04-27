@@ -23,7 +23,7 @@
     <mvc:resources mapping="/images/**" location="/WEB-INF/static/img/"/>
     <mvc:resources location="/WEB-INF/pages/" mapping="/pages/**"/>
 
-    <!-- 视图解析器 -->
+    <!-- 视图解析器,spring会自动在pages目录下寻找jsp文件 -->
     <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
         <property name="prefix" value="/WEB-INF/pages/"/>
         <property name="suffix" value=".jsp"/>
