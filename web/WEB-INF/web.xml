@@ -7,17 +7,18 @@
     <display-name>TODO</display-name>
 
     <servlet>
-        <!-- servlet-name定义的名称是TODO,这样spring会自动在WEB-INF下扫描TODO-servlet.xml文件 -->
-        <servlet-name>TODO</servlet-name>
+        <!-- servlet-name定义的名称是dispatcher,这样spring会自动在WEB-INF下扫描dispatcher-servlet.xml文件 -->
+        <servlet-name>dispatcher</servlet-name>
         <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
-        <init-param>
-            <param-name>contextConfigLocation</param-name>
-            <param-value>classpath:applicationContext.xml</param-value>
-        </init-param>
+        <!-- 此处我们也可以通过参数配置使spring不去扫描默认的dispatcher-servlet.xml，而是指定的applicationContext.xml -->
+        <!--<init-param>-->
+            <!--<param-name>contextConfigLocation</param-name>-->
+            <!--<param-value>classpath:applicationContext.xml</param-value>-->
+        <!--</init-param>-->
         <load-on-startup>1</load-on-startup>
     </servlet>
     <servlet-mapping>
-        <servlet-name>TODO</servlet-name>
+        <servlet-name>dispatcher</servlet-name>
         <url-pattern>/</url-pattern>
     </servlet-mapping>
 
