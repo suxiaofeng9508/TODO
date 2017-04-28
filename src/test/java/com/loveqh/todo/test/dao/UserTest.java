@@ -1,4 +1,4 @@
-package com.loveqh.todo.test;
+package com.loveqh.todo.test.dao;
 
 import com.loveqh.todo.dao.UserDao;
 import com.loveqh.todo.pojo.User;
