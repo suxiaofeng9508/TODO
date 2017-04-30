@@ -1,12 +1,15 @@
 package com.loveqh.todo.dao;
 
 import com.loveqh.todo.pojo.User;
+import org.mybatis.spring.annotation.MapperScan;
 
 import java.util.List;
 
 /**
  * Created by WL on 2017-04-23.
  */
+
+@MapperScan
 public interface UserDao {
 
     int getAllUsersCount();

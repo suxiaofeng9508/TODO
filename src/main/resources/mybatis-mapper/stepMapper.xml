@@ -2,7 +2,7 @@
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.loveqh.todo.dao.StepDao">
 
-    <resultMap id="stepResultMap" type="Step">
+    <resultMap id="stepResultMap" type="step">
         <id property="id" column="id"></id>
         <result property="intro" column="intro"></result>
         <result property="createTime" column="create_time"></result>
@@ -34,12 +34,12 @@
         delete from step
     </delete>
 
-    <insert id="addStep" parameterType="Step">
+    <insert id="addStep" parameterType="step">
         insert into step(intro, create_time, deadline, project_id)
         values(#{intro}, #{createTime}, #{deadline}, #{projectId})
     </insert>
 
-    <update id="updateStep" parameterType="Step">
+    <update id="updateStep" parameterType="step">
         update step set
         intro=#{intro},
         deadline=#{deadline}

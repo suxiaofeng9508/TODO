@@ -2,7 +2,7 @@
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.loveqh.todo.dao.ProjectDao">
 
-    <resultMap id="projectResultMap" type="Project">
+    <resultMap id="projectResultMap" type="project">
         <id property="id" column="id"></id>
         <result property="intro" column="intro"></result>
         <result property="createTime" column="create_time"></result>
@@ -30,12 +30,12 @@
         delete from project where id=#{value}
     </delete>
 
-    <insert id="addProject" parameterType="Project">
+    <insert id="addProject" parameterType="project">
         insert into project(intro, create_time, deadline, user_id)
             values(#{intro}, #{createTime}, #{deadline}, #{userId})
     </insert>
 
-    <update id="updateProject" parameterType="Project">
+    <update id="updateProject" parameterType="project">
         update project set
             intro=#{intro},
             deadline=#{deadline}

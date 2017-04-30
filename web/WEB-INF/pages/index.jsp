@@ -14,6 +14,7 @@
     <h2>用户登录</h2>
     <p>index.jsp in WEB-INF</p>
     <p>sringmvc test succeed!</p>
+    ${user}
     <%!
         /**
          * create a function in %!

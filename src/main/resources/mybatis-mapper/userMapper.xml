@@ -2,7 +2,7 @@
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.loveqh.todo.dao.UserDao">
 
-    <resultMap id="userResultMap" type="User">
+    <resultMap id="userResultMap" type="user">
         <id property="id" column="id"></id>
         <result property="name" column="name"></result>
         <result property="password" column="password"></result>
@@ -34,12 +34,12 @@
         delete from user where id=#{value}
     </delete>
 
-    <insert id="addUser" parameterType="User">
+    <insert id="addUser" parameterType="user">
         insert into user(name, password, email, last_login)
             values(#{name}, #{password}, #{email}, #{lastLogin})
     </insert>
 
-    <update id="updateUser" parameterType="User">
+    <update id="updateUser" parameterType="user">
         update user set
             name=#{name},
             password=#{password},
