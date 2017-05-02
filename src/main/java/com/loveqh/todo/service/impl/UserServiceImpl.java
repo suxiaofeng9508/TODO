@@ -17,12 +17,23 @@ public class UserServiceImpl implements UserService {
     @Resource
     private UserDao userDao;
 
-    public boolean login(User user) {
+    public boolean login(String username, String password) {
+        User user = userDao.findUserByName(username);
+        if(user == null) {
+            return false;
+        }
+        if(user.getPassword().equals(password)) {
+            return true;
+        }
         return false;
     }
 
     public User getUserById(int id) {
         return userDao.findUserById(id);
+    }
+
+    public User getUserByName(String name) {
+        return userDao.findUserByName(name);
     }
 
     public int save(User user) {

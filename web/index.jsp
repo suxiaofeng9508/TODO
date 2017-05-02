@@ -34,7 +34,9 @@
         } else {
             info = convertEncoding(info);
         }
+//        response.sendRedirect("/user/login");
 //        out.println("Welcome " + info + "!");
     %>
+    <jsp:forward page="/user/loginPage"></jsp:forward>
     </body>
 </html>

@@ -7,8 +7,10 @@ import com.loveqh.todo.util.MyBatisSessionFactory;
 import org.apache.ibatis.session.SqlSession;
 import org.apache.ibatis.session.SqlSessionFactory;
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.servlet.ModelAndView;
 
@@ -25,8 +27,26 @@ public class LoginController {
     @Resource
     private UserService userService;
 
+    @RequestMapping(value = "/loginPage", method = RequestMethod.GET)
+    public String loginPage() {
+        return "login";
+    }
+
     @RequestMapping(value = "/login", method = RequestMethod.GET)
-    public ModelAndView index() {
+    public String index(@RequestParam("username") String username,
+                              @RequestParam("password") String password,
+                              Model model) {
+        boolean flag = userService.login(username, password);
+        if(flag) {
+            User user = userService.getUserByName(username);
+            model.addAttribute(user);
+            return "user";
+        } else {
+            return "fail";
+        }
+    }
+
+    public ModelAndView index2() {
         System.out.println("用户登录");
         User user = userService.getUserById(1);
 //        不需要手动commit

@@ -12,9 +12,11 @@ import javax.jws.soap.SOAPBinding;
 @Repository
 public interface UserService {
 
-    boolean login(User user);
+    boolean login(String username, String password);
 
     User getUserById(int id);
+
+    User getUserByName(String name);
 
     int save(User user);
 }
