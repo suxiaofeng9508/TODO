@@ -9,6 +9,7 @@ import org.apache.ibatis.session.SqlSessionFactory;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.servlet.ModelAndView;
 
 import javax.annotation.Resource;
@@ -28,11 +29,18 @@ public class LoginController {
     public ModelAndView index() {
         System.out.println("用户登录");
         User user = userService.getUserById(1);
-        user.setName("test_spring");
-        int count = userService.save(user);
-        System.out.println(count);
+//        不需要手动commit
+//        user.setName("test_spring");
+//        int count = userService.save(user);
+//        System.out.println(count);
         ModelAndView mav = new ModelAndView("index");
         mav.addObject("user", user);
         return mav;
     }
+
+    @RequestMapping(value = "list", method = RequestMethod.GET)
+    public @ResponseBody String list() {
+        return userService.getUserById(1).toString();
+    }
+
 }

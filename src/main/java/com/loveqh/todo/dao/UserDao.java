@@ -2,6 +2,7 @@ package com.loveqh.todo.dao;
 
 import com.loveqh.todo.pojo.User;
 import org.mybatis.spring.annotation.MapperScan;
+import org.springframework.stereotype.Repository;
 
 import java.util.List;
 
@@ -9,7 +10,8 @@ import java.util.List;
  * Created by WL on 2017-04-23.
  */
 
-@MapperScan
+//@MapperScan
+@Repository
 public interface UserDao {
 
     int getAllUsersCount();
