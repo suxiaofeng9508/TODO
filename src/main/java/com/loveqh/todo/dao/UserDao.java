@@ -10,8 +10,6 @@ import java.util.List;
  * Created by WL on 2017-04-23.
  */
 
-//@MapperScan
-@Repository
 public interface UserDao {
 
     int getAllUsersCount();

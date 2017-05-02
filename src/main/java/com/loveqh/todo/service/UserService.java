@@ -9,7 +9,6 @@ import javax.jws.soap.SOAPBinding;
  * Created by WL on 2017-04-28.
  */
 
-@Repository
 public interface UserService {
 
     boolean login(String username, String password);

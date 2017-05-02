@@ -31,6 +31,7 @@ public class UserTest {
 //    private SqlSession session;
     private UserDao userDao;
     @Resource
+//    @Autowired
     private UserService userService;
 
 //    @Before
